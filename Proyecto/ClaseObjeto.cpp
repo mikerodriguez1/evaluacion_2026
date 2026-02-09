@@ -24,7 +24,7 @@ void Celular::apagar() {
 void Celular::cargar(int cantidad) {
     
     if (bateria + cantidad > 100) {
-        cout << "No hay espacio suficiente en la bateria." << endl;
+        cout << "No hay suficiente bateria." << endl;
     } else {
         bateria += cantidad;
         cout << "Se cargo el " << cantidad << "% de bateria." << endl;
