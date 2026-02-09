@@ -1,19 +1,19 @@
-# 📱 Mi Celular en Minecraft (POO)
+# 🥵 Mi Tarea de Minecraft POO
 
-Proyecto para la evaluación 2026. Aplicación de lógica de programación y hardware virtual dentro de Minecraft.
+Proyecto para la evaluación 2026. Mostrar lo que hise en c+ pero en Minecraft 🤵🏻.
 
 ---
 
 ## 📸 Evidencias del Proyecto
-Aquí se puede ver la estructura completa del celular y la lógica de los comandos.
+Aqui se puede ver el teléfono que gendria siendo la clase y los comandos.
 
-| Vista General | Conceptos Aplicados |
+| Vista general | Conceptos Aplicados |
 | :---: | :---: |
 | <img src="img1/general.jpg" width="400" alt="General"> | <img src="img1/conceptos.jpg" width="400" alt="Conceptos"> |
 
 ---
 
-## 🎬 Demostración Funcional
+## 🎬 Demostración De q funciona 
 En este clip se observa la ejecución de los métodos y la respuesta en el chat.
 
 <p align="center">
@@ -21,11 +21,11 @@ En este clip se observa la ejecución de los métodos y la respuesta en el chat.
 </p>
 
 ---
-> Proyecto desarrollado por mikerodriguez1
+> No e dormido nada 😮‍💨
 ---
 
-## 🎬 PRESENTACIÓN CINEMÁTICA DEL PROYECTO
-> **Haz clic en la imagen de abajo para reproducir la demostración completa.**
+## 🎬 Video de demostración.
+> **Haz clic en la imagen de abajo para reproducir el video 😲.**
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1Fv-nw5130v1dAyPsefSavlTo-AjHCZyJ/view?usp=sharing">
