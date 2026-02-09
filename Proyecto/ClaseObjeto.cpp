@@ -7,7 +7,7 @@ Celular::Celular(string m, string mod, string c) {
     marca = m;
     modelo = mod;
     color = c;
-    bateria = 50; // Empezamos con media carga
+    bateria = 50; 
     encendido = false;
 }
 
@@ -22,7 +22,7 @@ void Celular::apagar() {
 }
 
 void Celular::cargar(int cantidad) {
-    // Validamos que no pase del 100% como en la mochila
+    
     if (bateria + cantidad > 100) {
         cout << "No hay espacio suficiente en la bateria." << endl;
     } else {
@@ -32,7 +32,7 @@ void Celular::cargar(int cantidad) {
 }
 
 void Celular::usar(int consumo) {
-    // Si no esta prendido, no deja hacer nada (Abstraccion)
+
     if (!encendido) {
         cout << "El celular esta apagado (No se puede usar)." << endl;
         return;
