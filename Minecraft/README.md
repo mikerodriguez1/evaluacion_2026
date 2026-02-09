@@ -22,11 +22,19 @@ En este clip se observa la ejecución de los métodos y la respuesta en el chat.
 
 ---
 > Proyecto desarrollado por mikerodriguez1
-> ---
+---
 
-## 📺 Video Demostrativo (HD)
-Haz clic en la imagen de abajo para ver el video completo del funcionamiento en Google Drive:
+## 🎬 PRESENTACIÓN CINEMÁTICA DEL PROYECTO
+> **Haz clic en la imagen de abajo para reproducir la demostración completa.**
 
-[![Ver Video en Drive](https://img.shields.io/badge/PLAY-Ver_Video_del_Proyecto-red?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1Fv-nw5130v1dAyPsefSavlTo-AjHCZyJ/view?usp=drivesdk)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1Fv-nw5130v1dAyPsefSavlTo-AjHCZyJ/view?usp=sharing">
+    <img src="img1/miniatura_video.jpg" width="800" style="border-radius: 20px; box-shadow: 0px 10px 30px rgba(0,255,0,0.5); border: 2px solid #00ff00;">
+  </a>
+</p>
 
-> 💡 **Nota:** Si te pide permiso, asegúrate de que el archivo en Drive esté configurado como **"Cualquier persona con el enlace puede ver"**.
+<p align="center">
+  <kbd>▶️ REPRODUCIR VIDEO EN GOOGLE DRIVE</kbd>
+</p>
+
+---
