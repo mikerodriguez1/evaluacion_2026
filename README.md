@@ -1,5 +1,5 @@
-# 🚀 Bienvenido a mi Repositorio de POO
-## 🧑‍💻 Jose Manuel Rodriguez Rodriguez
+#  Bienvenido a mi Repositorio 
+## Jose Manuel Rodriguez Rodriguez
 > **como esta maestro esta vien o noo** | *Tarea :)*
 > **No. Control:** 242240038 |
 
