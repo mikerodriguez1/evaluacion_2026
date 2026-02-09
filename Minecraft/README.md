@@ -1,4 +1,4 @@
-# 🥵 Mi Tarea de Minecraft POO
+# 🥵 Tarea No1 de Minecraft:)
 
 Proyecto para la evaluación 2026. Mostrar lo que hise en c+ pero en Minecraft 🤵🏻.
 
