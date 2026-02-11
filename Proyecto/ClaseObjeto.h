@@ -12,7 +12,7 @@ private:
     bool encendido;
 
 public:
-    
+    // METODO
     Celular(string m, string mod, string c);
 
     
