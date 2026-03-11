@@ -1,0 +1,75 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Libro {
+private:
+    // Atributos privados (encapsulamiento)
+    string titulo;
+    string autor;
+    string codigo;
+    int cantidadDisponible;
+
+public:
+    // Constructor para inicializar el libro
+    Libro(string _titulo, string _autor, string _codigo, int _cantidad) {
+        titulo = _titulo;
+        autor = _autor;
+        codigo = _codigo;
+        cantidadDisponible = _cantidad;
+    }
+
+    // Método para prestar: solo resta si hay stock
+    void prestarLibro() {
+        if (cantidadDisponible > 0) {
+            cantidadDisponible--;
+            cout << "Prestamo exitoso del libro: " << titulo << endl;
+        } else {
+            cout << "Error: No hay ejemplares disponibles de '" << titulo << "'." << endl;
+        }
+    }
+
+    // Método para devolver: aumenta el contador
+    void devolverLibro() {
+        cantidadDisponible++;
+        cout << "El libro '" << titulo << "' ha sido devuelto." << endl;
+    }
+
+    // Muestra los datos del libro
+    void mostrarInformacion() {
+        cout << "-----------------------------" << endl;
+        cout << "Codigo: " << codigo << endl;
+        cout << "Titulo: " << titulo << endl;
+        cout << "Autor:  " << autor << endl;
+        cout << "Disponibles: " << cantidadDisponible << endl;
+        cout << "-----------------------------" << endl;
+    }
+
+    // Getter para la cantidad
+    int getCantidadDisponible() {
+        return cantidadDisponible;
+    }
+};
+
+int main() {
+    // Creamos un par de objetos de prueba
+    Libro libro1("Calculo de una Variable", "James Stewart", "MAT101", 2);
+    Libro libro2("Programacion C++", "Deitel", "INF202", 1);
+
+    // Simulación de uso
+    libro1.mostrarInformacion();
+    
+    // Intentamos prestar 3 veces un libro que tiene 2 ejemplares
+    libro1.prestarLibro();
+    libro1.prestarLibro();
+    libro1.prestarLibro(); // Aquí debería saltar el error de stock
+
+    libro1.mostrarInformacion();
+
+    // Devolvemos uno
+    libro1.devolverLibro();
+    cout << "Nueva cantidad disponible: " << libro1.getCantidadDisponible() << endl;
+
+    return 0;
+}
