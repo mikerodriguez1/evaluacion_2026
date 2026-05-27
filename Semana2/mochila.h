@@ -17,7 +17,7 @@ public:
     // Constructor
     Mochila(string _color, int _capacidad, int _compartimentos);
 
-    // Métodos públicos (Acciones de la mochila)
+    // public :)
     void abrirMochila();
     void cerrarMochila();
     void guardarObjeto();
