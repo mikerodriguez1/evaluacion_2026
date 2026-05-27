@@ -14,12 +14,12 @@ int main() {
     miMochila.guardarObjeto(); 
 
     cout << "\n--- Interactuando con el objeto ---" << endl;
-    // Ahora la abrimos y metemos cosas
+    // abrir y cerrasr 
     miMochila.abrirMochila();
     miMochila.guardarObjeto();
     miMochila.guardarObjeto();
 
-    // Volvemos a cerrar y revisamos el estado final
+    // se siera de nuevo 
     miMochila.cerrarMochila();
     miMochila.mostrarEstado();
 
