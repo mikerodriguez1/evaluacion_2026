@@ -3,13 +3,13 @@
 
 using namespace std;
 
-// El constructor inicializa la mochila vacía y cerrada por defecto
+// mochila vacia oviamente 
 Mochila::Mochila(string _color, int _capacidad, int _compartimentos) {
     color = _color;
     capacidadMaxLitros = _capacidad;
     numCompartimentos = _compartimentos;
-    cantidadObjetosActuales = 0; // Empieza vacía
-    estaAbierta = false;         // Empieza cerrada
+    cantidadObjetosActuales = 0; // edsta vacía
+    estaAbierta = false;         // cerrada
 }
 
 void Mochila::abrirMochila() {
